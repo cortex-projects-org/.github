@@ -1,0 +1,16 @@
+name: Error
+description: Algo no anda como debería
+title: "[BUG-NN] "
+labels: ["type:bug"]
+body:
+  - type: textarea
+    id: que
+    attributes: { label: Qué pasa, description: Qué esperabas y qué pasó }
+    validations: { required: true }
+  - type: textarea
+    id: pasos
+    attributes: { label: Cómo reproducirlo, value: "1. \n2. \n3. " }
+    validations: { required: true }
+  - type: textarea
+    id: extra
+    attributes: { label: Capturas o datos extra }

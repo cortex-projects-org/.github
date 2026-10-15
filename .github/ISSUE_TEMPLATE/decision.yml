@@ -1,0 +1,19 @@
+name: Decisión de diseño
+description: Una decisión que condiciona el proyecto
+title: "[DEC-NN] "
+labels: ["type:decision"]
+body:
+  - type: textarea
+    id: contexto
+    attributes: { label: Contexto }
+    validations: { required: true }
+  - type: textarea
+    id: opciones
+    attributes: { label: Opciones, description: Con pros y contras }
+    validations: { required: true }
+  - type: textarea
+    id: recomendacion
+    attributes: { label: Recomendación }
+  - type: input
+    id: decide
+    attributes: { label: A decidir por, placeholder: Cliente / Juan }
