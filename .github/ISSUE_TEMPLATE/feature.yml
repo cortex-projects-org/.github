@@ -1,0 +1,21 @@
+name: Funcionalidad
+description: Algo nuevo o un cambio de comportamiento
+title: "[XXX-NN] "
+labels: ["type:feature"]
+body:
+  - type: textarea
+    id: contexto
+    attributes: { label: Contexto, description: Qué problema resuelve y por qué ahora }
+    validations: { required: true }
+  - type: textarea
+    id: alcance
+    attributes: { label: Alcance, description: Qué incluye y qué no }
+  - type: textarea
+    id: tareas
+    attributes: { label: Tareas, value: "- [ ] " }
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      value: "```gherkin\nDado …\nCuando …\nEntonces …\n```"
+    validations: { required: true }
