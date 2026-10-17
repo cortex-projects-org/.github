@@ -1,3 +1,4 @@
+<!-- repo-check: infra -->
 # .github
 
 Plantillas por defecto de la organización `cortex-projects-org`. GitHub las aplica a todos los repos de la org que no
